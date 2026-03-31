@@ -3,7 +3,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { App } from './App';
 
 createRoot(document.getElementById('root') as HTMLElement).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/react_tabs-with-router">
     <App />
   </BrowserRouter>,
 );
