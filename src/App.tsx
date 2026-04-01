@@ -15,7 +15,7 @@ export const App = () => (
       <div className="container">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="home" element={<Navigate to="/" replace />} />
+          <Route path="/home" element={<Navigate to="/" replace />} />
           <Route path="tabs">
             <Route index element={<TabsPage />} />
             <Route path=":tabId" element={<TabsPage />} />
@@ -26,3 +26,4 @@ export const App = () => (
     </div>
   </>
 );
+
